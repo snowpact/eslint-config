@@ -1,5 +1,9 @@
 module.exports = {
   root: true,
+  env: {
+    jest: true,
+    browser: true,
+  },
   settings: {
     react: {
       version: 'detect'
@@ -88,7 +92,6 @@ module.exports = {
     'react/jsx-handler-names': 'off',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/self-closing-comp': 'error',
