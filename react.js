@@ -20,9 +20,11 @@ module.exports = {
     version: 'detect'
   },
   parser: '@babel/eslint-parser',
-  requireConfigFile: false,
-  babelOptions: {
-    presets: ["@babel/preset-react"]
+  parserOptions: {
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ["@babel/preset-react"]
+    },
   },
   extends: [
     'standard',
