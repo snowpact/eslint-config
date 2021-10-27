@@ -22,7 +22,6 @@ module.exports = {
         'plugin:import/typescript',
     ],
     rules: {
-        '@typescript-eslint/interface-name-prefix': [2, { prefixWithI: 'always' }],
         '@typescript-eslint/require-await': 2,
         '@typescript-eslint/explicit-function-return-type': 2,
         'import/order': 1,
