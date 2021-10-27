@@ -1,4 +1,4 @@
-# Tilted eslint config
+# Snowpact eslint config
 
 ## Installation
 
@@ -13,13 +13,13 @@ yarn add @snowpact/eslint-config -D
 Using `.eslintrc.json`:
 ```json
 {
-  "extends": "@snowpact/react"
+  "extends": "@snowpact/eslint-config/react"
 }
 ```
 
 Using `.eslintrc.js`:
 ```javascript
 module.exports = {
-  extends: '@snowpact/react'
+  extends: '@snowpact/eslint-config/react'
 }
 ```

@@ -38,6 +38,7 @@ module.exports = {
     createDefaultProgram: true
   },
   rules: {
+    'prettier/prettier': 'error',
     'space-infix-ops': 'off',
     'brace-style': ['error', '1tbs'],
     curly: ['error', 'all'],
@@ -76,11 +77,10 @@ module.exports = {
     ],
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
-    'jsx-quotes': ['error', 'prefer-single'],
+    'jsx-quotes': ['error', 'prefer-double'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-trailing-spaces': 'error',
     'no-use-before-define': 'off',
-    quotes: ['error', 'single'],
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
@@ -93,7 +93,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/self-closing-comp': 'error',
     'no-plusplus': 0,
-    semi: 'error',
+    semi: ["error", "always"],
     'sort-imports': ['error', { ignoreDeclarationSort: true, ignoreCase: true }],
     'sort-vars': ['error', { 'ignoreCase': true }]
   }

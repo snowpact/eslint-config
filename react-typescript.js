@@ -25,8 +25,8 @@ module.exports = {
     'prettier'
   ],
   plugins: [
-    'prettier',
     '@typescript-eslint',
+    'prettier',
     'import',
     'react',
     'react-hooks'
@@ -42,6 +42,7 @@ module.exports = {
     createDefaultProgram: true
   },
   rules: {
+    'prettier/prettier': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/member-delimiter-style': ['error', {
@@ -97,11 +98,10 @@ module.exports = {
     indent: 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
-    'jsx-quotes': ['error', 'prefer-single'],
+    'jsx-quotes': ['error', 'prefer-double'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-trailing-spaces': 'error',
     'no-use-before-define': 'off',
-    quotes: ['error', 'single'],
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
@@ -114,7 +114,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/self-closing-comp': 'error',
     'no-plusplus': 0,
-    semi: 'error',
+    semi: ["error", "always"],
     'sort-imports': ['error', { ignoreDeclarationSort: true, ignoreCase: true }],
     'sort-vars': ['error', { 'ignoreCase': true }]
   }

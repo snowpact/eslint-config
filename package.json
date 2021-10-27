@@ -1,6 +1,6 @@
 {
   "name": "@snowpact/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Default eslint config for snowpact projects",
   "main": "index.js",
   "repository": {
@@ -24,13 +24,13 @@
   "peerDependencies": {
     "eslint": ">= 7.32.0",
     "eslint-import-resolver-alias": ">= 1.1.2",
-    "eslint-plugin-cypress": ">= 2.12.1",
     "eslint-plugin-node": ">= 11.1.0",
     "eslint-plugin-prettier": ">= 4.0.0",
     "eslint-plugin-promise": ">= 5.1.0",
     "eslint-plugin-react": ">= 7.26.1",
     "eslint-plugin-react-hooks": ">= 4.2.0",
-    "eslint-plugin-jsx-a11y": ">= 6.4.1"
+    "eslint-plugin-jsx-a11y": ">= 6.4.1",
+    "prettier": ">= 2.4.1"
   },
   "bugs": {
     "url": "https://github.com/snowpact/eslint-config/issues"
