@@ -78,7 +78,7 @@ module.exports = {
       }
     ],
     'import/order': [
-      'error',
+      'warn',
       {
         alphabetize: {
           order: 'asc',
