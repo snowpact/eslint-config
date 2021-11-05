@@ -23,9 +23,13 @@ module.exports = {
     ],
     rules: {
         '@typescript-eslint/require-await': 2,
+        '@typescript-eslint/no-unsafe-call': ['off'],
+        '@typescript-eslint/no-unsafe-member-access': ['off'],
+        '@typescript-eslint/no-unsafe-assignment': ['off'],
         '@typescript-eslint/explicit-function-return-type': 2,
         'import/order': 1,
         'import/imports-first': 1,
+        '@typescript-eslint/no-unsafe-return': ['off'],
     },
     settings: {
         'import/resolver': {
