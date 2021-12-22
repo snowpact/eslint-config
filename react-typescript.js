@@ -48,10 +48,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/member-delimiter-style': ['error', {
       'multiline': {
-        'delimiter': 'none',
+        'delimiter': 'semi',
         'requireLast': true
       },
       'singleline': {
