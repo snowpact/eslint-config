@@ -47,6 +47,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/member-delimiter-style': ['error', {
       'multiline': {
@@ -65,6 +66,7 @@ module.exports = {
     'brace-style': ['error', '1tbs'],
     curly: ['error', 'all'],
     'default-param-last': 'off',
+    'import/imports-first': 1,
     'import/prefer-default-export': 'off',
     'import/extensions': [
       'error',
@@ -103,15 +105,18 @@ module.exports = {
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-quotes': ['error', 'prefer-double'],
     'array-callback-return': ['error', { allowImplicit: true }],
+    'comma-dangle': 'off', // https://eslint.org/docs/rules/comma-dangle
     'default-case': ['error', { commentPattern: '^no default$' }],
     'default-case-last': 'off',
     'dot-notation': ['error', { allowKeywords: true }],
+    'function-paren-newline': 'off', // https://eslint.org/docs/rules/function-paren-newline
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-plusplus': 0,
     'no-trailing-spaces': 'error',
     'no-use-before-define': 'off',
     'no-return-await': 'error',
     'max-classes-per-file': ['error', 1],
+    'react/prop-types': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'error',
