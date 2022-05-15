@@ -59,7 +59,7 @@ module.exports = {
         'requireLast': false
       }
     }],
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-use-before-define': 'error',
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': ['error', { 'int32Hint': false }],
