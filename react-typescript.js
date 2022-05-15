@@ -59,6 +59,7 @@ module.exports = {
         'requireLast': false
       }
     }],
+    '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-use-before-define': 'error',
     'space-infix-ops': 'off',
