@@ -28,7 +28,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:jsx-a11y/recommended',
         'prettier',
-        'prettier/@typescript-eslint',
         '@react-native-community',
     ],
     plugins: [
