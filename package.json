@@ -1,6 +1,6 @@
 {
   "name": "@snowpact/eslint-config",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Default eslint config for snowpact projects",
   "main": "index.js",
   "repository": {
